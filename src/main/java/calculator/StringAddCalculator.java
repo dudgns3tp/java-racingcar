@@ -14,11 +14,9 @@ public class StringAddCalculator {
     }
 
     public static int splitAndSum(String text) {
-
         if (isEmptyOrNull(text))  {
             return 0;
         }
-
 
         Matcher matcher = pattern.matcher(text);
 
